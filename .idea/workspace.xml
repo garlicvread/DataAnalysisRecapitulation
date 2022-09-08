@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff61661f-7679-45f9-a2cf-c1f3bdcfe98c" name="Changes" comment="">
+    <list default="true" id="ff61661f-7679-45f9-a2cf-c1f3bdcfe98c" name="Changes" comment="[Feat] Random Forest&#10;&#10;### Motivation&#10;- Random forest implementation&#10;&#10;### Key Changes&#10;- daconPracticeDay2_03_random_forest.ipynb has been added.&#10;&#10;### To Reviewers&#10;- criterion = 'mse' is deprecated from sklearn.ensemble v1.0.">
+      <change afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/data/__MACOSX/._submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/data/__MACOSX/._test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/data/__MACOSX/._train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/data/submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/data/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/data/train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,13 +23,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ETJnXNwve5Zo6jZ0ajI3TA9rys" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -36,6 +46,7 @@
       <recent name="$PROJECT_DIR$/.idea/Day2_interpolation_and_random_forest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.idea/Day1_bikeSeoul_decisionMakingTree" />
     </key>
   </component>
@@ -49,6 +60,7 @@
       <updated>1662613809683</updated>
       <workItem from="1662613812176" duration="481000" />
       <workItem from="1662614320519" duration="416000" />
+      <workItem from="1662614768522" duration="1296000" />
     </task>
     <task id="LOCAL-00001" summary="[Chore] Directory structure modification&#10;&#10;### Motivation&#10;- Files are added.&#10;- Need to restructure the directory structure&#10;&#10;### Key Changes&#10;- Directories for each day are added.&#10;- File are refactored with new directory paths.&#10;&#10;### To Reviewers&#10;- Noting special.">
       <created>1662614579976</created>
@@ -57,14 +69,31 @@
       <option name="project" value="LOCAL" />
       <updated>1662614579976</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[Chore] Directory structure modification(2)&#10;&#10;### Motivation&#10;- Need to restructure the directory structure&#10;&#10;### Key Changes&#10;- File are refactored with new directory paths.&#10;&#10;### To Reviewers&#10;- Noting special.">
+      <created>1662614856837</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662614856837</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[Feat] Random Forest&#10;&#10;### Motivation&#10;- Random forest implementation&#10;&#10;### Key Changes&#10;- daconPracticeDay2_03_random_forest.ipynb has been added.&#10;&#10;### To Reviewers&#10;- criterion = 'mse' is deprecated from sklearn.ensemble v1.0.">
+      <created>1662617596495</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662617596495</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="[Chore] Directory structure modification&#10;&#10;### Motivation&#10;- Files are added.&#10;- Need to restructure the directory structure&#10;&#10;### Key Changes&#10;- Directories for each day are added.&#10;- File are refactored with new directory paths.&#10;&#10;### To Reviewers&#10;- Noting special." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Chore] Directory structure modification&#10;&#10;### Motivation&#10;- Files are added.&#10;- Need to restructure the directory structure&#10;&#10;### Key Changes&#10;- Directories for each day are added.&#10;- File are refactored with new directory paths.&#10;&#10;### To Reviewers&#10;- Noting special." />
+    <MESSAGE value="[Chore] Directory structure modification(2)&#10;&#10;### Motivation&#10;- Need to restructure the directory structure&#10;&#10;### Key Changes&#10;- File are refactored with new directory paths.&#10;&#10;### To Reviewers&#10;- Noting special." />
+    <MESSAGE value="[Feat] Random Forest&#10;&#10;### Motivation&#10;- Random forest implementation&#10;&#10;### Key Changes&#10;- daconPracticeDay2_03_random_forest.ipynb has been added.&#10;&#10;### To Reviewers&#10;- criterion = 'mse' is deprecated from sklearn.ensemble v1.0." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Feat] Random Forest&#10;&#10;### Motivation&#10;- Random forest implementation&#10;&#10;### Key Changes&#10;- daconPracticeDay2_03_random_forest.ipynb has been added.&#10;&#10;### To Reviewers&#10;- criterion = 'mse' is deprecated from sklearn.ensemble v1.0." />
   </component>
 </project>
