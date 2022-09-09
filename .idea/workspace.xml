@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff61661f-7679-45f9-a2cf-c1f3bdcfe98c" name="Changes" comment="[Feat] Importance of parameters&#10;&#10;### Motivation&#10;- Need to check the importance of the parameters&#10;&#10;### Key Changes&#10;- daconPracticeDay2_04_random_forest_importances_of_parameters.ipynb has been added.&#10;&#10;### To Reviewers&#10;- You NEED to check if both the train data and the test data has no missing value.">
-      <change afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/daconPracticeDay2_05_hyperparameters_tuning_and_gridSearch.ipynb" afterDir="false" />
+    <list default="true" id="ff61661f-7679-45f9-a2cf-c1f3bdcfe98c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/daconPracticeDay2_01_replace_with_mean.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/daconPracticeDay2_01_replace_with_mean.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/daconPracticeDay2_04_random_forest_importances_of_parameters.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/daconPracticeDay2_04_random_forest_importances_of_parameters.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/result1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/result1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/result2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/result2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/result3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/result3.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +61,7 @@
       <workItem from="1662617913687" duration="416000" />
       <workItem from="1662628274166" duration="1216000" />
       <workItem from="1662670914229" duration="1174000" />
+      <workItem from="1662699947247" duration="533000" />
     </task>
     <task id="LOCAL-00001" summary="[Chore] Directory structure modification&#10;&#10;### Motivation&#10;- Files are added.&#10;- Need to restructure the directory structure&#10;&#10;### Key Changes&#10;- Directories for each day are added.&#10;- File are refactored with new directory paths.&#10;&#10;### To Reviewers&#10;- Noting special.">
       <created>1662614579976</created>
@@ -110,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662629468765</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[Feat] hyperparameter tuning, gridsearch&#10;&#10;### Motivation&#10;- hyperparameter tuning, gridsearch&#10;&#10;### Key Changes&#10;- daconPracticeDay2_05_hyperparameters_tuning_and_gridSearch.ipynb has been added&#10;&#10;### To Reviewers&#10;- The code is somewhat different to the original.">
+      <created>1662700078531</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662700078531</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +126,7 @@
     <MESSAGE value="[Add] Add untracked files&#10;&#10;### Motivation&#10;- Files were not tracked&#10;&#10;### Key Changes&#10;- Track the untracked files&#10;- Commit the files to repository&#10;&#10;### To Reviewers&#10;- Nothing special" />
     <MESSAGE value="[Chore] Erase duplicated codes&#10;&#10;### Motivation&#10;- Some codes were duplicated&#10;&#10;### Key Changes&#10;- Erase the duplicated codes&#10;&#10;### To Reviewers&#10;- Nothing special" />
     <MESSAGE value="[Feat] Importance of parameters&#10;&#10;### Motivation&#10;- Need to check the importance of the parameters&#10;&#10;### Key Changes&#10;- daconPracticeDay2_04_random_forest_importances_of_parameters.ipynb has been added.&#10;&#10;### To Reviewers&#10;- You NEED to check if both the train data and the test data has no missing value." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Feat] Importance of parameters&#10;&#10;### Motivation&#10;- Need to check the importance of the parameters&#10;&#10;### Key Changes&#10;- daconPracticeDay2_04_random_forest_importances_of_parameters.ipynb has been added.&#10;&#10;### To Reviewers&#10;- You NEED to check if both the train data and the test data has no missing value." />
+    <MESSAGE value="[Feat] hyperparameter tuning, gridsearch&#10;&#10;### Motivation&#10;- hyperparameter tuning, gridsearch&#10;&#10;### Key Changes&#10;- daconPracticeDay2_05_hyperparameters_tuning_and_gridSearch.ipynb has been added&#10;&#10;### To Reviewers&#10;- The code is somewhat different to the original." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Feat] hyperparameter tuning, gridsearch&#10;&#10;### Motivation&#10;- hyperparameter tuning, gridsearch&#10;&#10;### Key Changes&#10;- daconPracticeDay2_05_hyperparameters_tuning_and_gridSearch.ipynb has been added&#10;&#10;### To Reviewers&#10;- The code is somewhat different to the original." />
   </component>
 </project>
