@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff61661f-7679-45f9-a2cf-c1f3bdcfe98c" name="Changes" comment="" />
+    <list default="true" id="ff61661f-7679-45f9-a2cf-c1f3bdcfe98c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Day3_cross_validation_and_LGBM/daconPracticeDay3_2_dataPreprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_cross_validation_and_LGBM/daconPracticeDay3_2_dataPreprocessing.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +64,7 @@
       <workItem from="1662699947247" duration="533000" />
       <workItem from="1662700607288" duration="2363000" />
       <workItem from="1662738242087" duration="301000" />
+      <workItem from="1662746236694" duration="755000" />
     </task>
     <task id="LOCAL-00001" summary="[Chore] Directory structure modification&#10;&#10;### Motivation&#10;- Files are added.&#10;- Need to restructure the directory structure&#10;&#10;### Key Changes&#10;- Directories for each day are added.&#10;- File are refactored with new directory paths.&#10;&#10;### To Reviewers&#10;- Noting special.">
       <created>1662614579976</created>
@@ -154,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662738338769</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[Feat] Outlier handling&#10;&#10;### Motivation&#10;- Outlier handling&#10;&#10;### Key Changes&#10;- daconPracticeDay3_2_dataPreprocessing.ipynb has been added.&#10;- daconPracticeDay3_pythonEDA.ipynb has been changed to daconPracticeDay3_1_pythonEDA.ipynb&#10;&#10;### To Reviewers&#10;- Nothing special">
+      <created>1662746338246</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662746338246</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +184,7 @@
     <MESSAGE value="[Feat] feature importance visualization&#10;&#10;### Motivation&#10;- Importance visualization&#10;&#10;### Key Changes&#10;- Visualize the feature importance with matplotlib and seaborn&#10;- Change the code to drop the less important feature first&#10;&#10;### To Reviewers&#10;- Nothing special" />
     <MESSAGE value="[Chore] Jupyter notebook sucks&#10;&#10;### Motivation&#10;- Some cells are not recorded&#10;&#10;### Key Changes&#10;- Re-run the code&#10;&#10;### To Reviewers&#10;- Nothing special" />
     <MESSAGE value="[Feat] python eda&#10;&#10;### Motivation&#10;- python eda and visualization&#10;&#10;### Key Changes&#10;- daconPracticeDay3_pythonEDA.ipynb has been added.&#10;&#10;### To Reviewers&#10;- Nothing special" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Feat] python eda&#10;&#10;### Motivation&#10;- python eda and visualization&#10;&#10;### Key Changes&#10;- daconPracticeDay3_pythonEDA.ipynb has been added.&#10;&#10;### To Reviewers&#10;- Nothing special" />
+    <MESSAGE value="[Feat] Outlier handling&#10;&#10;### Motivation&#10;- Outlier handling&#10;&#10;### Key Changes&#10;- daconPracticeDay3_2_dataPreprocessing.ipynb has been added.&#10;- daconPracticeDay3_pythonEDA.ipynb has been changed to daconPracticeDay3_1_pythonEDA.ipynb&#10;&#10;### To Reviewers&#10;- Nothing special" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Feat] Outlier handling&#10;&#10;### Motivation&#10;- Outlier handling&#10;&#10;### Key Changes&#10;- daconPracticeDay3_2_dataPreprocessing.ipynb has been added.&#10;- daconPracticeDay3_pythonEDA.ipynb has been changed to daconPracticeDay3_1_pythonEDA.ipynb&#10;&#10;### To Reviewers&#10;- Nothing special" />
   </component>
 </project>
