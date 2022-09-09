@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff61661f-7679-45f9-a2cf-c1f3bdcfe98c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/3gLj0Q6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff61661f-7679-45f9-a2cf-c1f3bdcfe98c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +61,7 @@
       <workItem from="1662670914229" duration="1174000" />
       <workItem from="1662699947247" duration="533000" />
       <workItem from="1662700607288" duration="2363000" />
+      <workItem from="1662738242087" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="[Chore] Directory structure modification&#10;&#10;### Motivation&#10;- Files are added.&#10;- Need to restructure the directory structure&#10;&#10;### Key Changes&#10;- Directories for each day are added.&#10;- File are refactored with new directory paths.&#10;&#10;### To Reviewers&#10;- Noting special.">
       <created>1662614579976</created>
@@ -149,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662705093514</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[Feat] python eda&#10;&#10;### Motivation&#10;- python eda and visualization&#10;&#10;### Key Changes&#10;- daconPracticeDay3_pythonEDA.ipynb has been added.&#10;&#10;### To Reviewers&#10;- Nothing special">
+      <created>1662738338769</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662738338769</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +173,7 @@
     <MESSAGE value="[Chore] Jupyter Notebook file error&#10;&#10;### Motivation&#10;- Code are gone Q.Q&#10;&#10;### Key Changes&#10;- Rewrite the code that was gone&#10;&#10;### To Reviewers&#10;- Nothing special." />
     <MESSAGE value="[Feat] feature importance visualization&#10;&#10;### Motivation&#10;- Importance visualization&#10;&#10;### Key Changes&#10;- Visualize the feature importance with matplotlib and seaborn&#10;- Change the code to drop the less important feature first&#10;&#10;### To Reviewers&#10;- Nothing special" />
     <MESSAGE value="[Chore] Jupyter notebook sucks&#10;&#10;### Motivation&#10;- Some cells are not recorded&#10;&#10;### Key Changes&#10;- Re-run the code&#10;&#10;### To Reviewers&#10;- Nothing special" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Chore] Jupyter notebook sucks&#10;&#10;### Motivation&#10;- Some cells are not recorded&#10;&#10;### Key Changes&#10;- Re-run the code&#10;&#10;### To Reviewers&#10;- Nothing special" />
+    <MESSAGE value="[Feat] python eda&#10;&#10;### Motivation&#10;- python eda and visualization&#10;&#10;### Key Changes&#10;- daconPracticeDay3_pythonEDA.ipynb has been added.&#10;&#10;### To Reviewers&#10;- Nothing special" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Feat] python eda&#10;&#10;### Motivation&#10;- python eda and visualization&#10;&#10;### Key Changes&#10;- daconPracticeDay3_pythonEDA.ipynb has been added.&#10;&#10;### To Reviewers&#10;- Nothing special" />
   </component>
 </project>
