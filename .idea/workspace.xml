@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff61661f-7679-45f9-a2cf-c1f3bdcfe98c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/daconPracticeDay2_04_random_forest_importances_of_parameters.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/data/__MACOSX/._submission.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/data/__MACOSX/._test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/data/__MACOSX/._train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/result1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/result2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/result3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ff61661f-7679-45f9-a2cf-c1f3bdcfe98c" name="Changes" comment="[Feat] Importance of parameters&#10;&#10;### Motivation&#10;- Need to check the importance of the parameters&#10;&#10;### Key Changes&#10;- daconPracticeDay2_04_random_forest_importances_of_parameters.ipynb has been added.&#10;&#10;### To Reviewers&#10;- You NEED to check if both the train data and the test data has no missing value.">
+      <change afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/daconPracticeDay2_05_hyperparameters_tuning_and_gridSearch.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/daconPracticeDay2_01_replace_with_mean.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/daconPracticeDay2_01_replace_with_mean.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/daconPracticeDay2_04_random_forest_importances_of_parameters.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/daconPracticeDay2_04_random_forest_importances_of_parameters.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/result1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/result1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/result2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/result2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/result3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_interpolation_and_random_forest/result3.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,21 +29,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/raymond/Development/DataAnalysisRecapitulation/.idea/Day2_interpolation_and_random_forest",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/raymond/Development/DataAnalysisRecapitulation/.idea/Day2_interpolation_and_random_forest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.idea/Day2_interpolation_and_random_forest" />
@@ -67,7 +65,8 @@
       <workItem from="1662614320519" duration="416000" />
       <workItem from="1662614768522" duration="1296000" />
       <workItem from="1662617913687" duration="416000" />
-      <workItem from="1662628274166" duration="1023000" />
+      <workItem from="1662628274166" duration="1216000" />
+      <workItem from="1662670914229" duration="1174000" />
     </task>
     <task id="LOCAL-00001" summary="[Chore] Directory structure modification&#10;&#10;### Motivation&#10;- Files are added.&#10;- Need to restructure the directory structure&#10;&#10;### Key Changes&#10;- Directories for each day are added.&#10;- File are refactored with new directory paths.&#10;&#10;### To Reviewers&#10;- Noting special.">
       <created>1662614579976</created>
@@ -104,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662618218216</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[Feat] Importance of parameters&#10;&#10;### Motivation&#10;- Need to check the importance of the parameters&#10;&#10;### Key Changes&#10;- daconPracticeDay2_04_random_forest_importances_of_parameters.ipynb has been added.&#10;&#10;### To Reviewers&#10;- You NEED to check if both the train data and the test data has no missing value.">
+      <created>1662629468765</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662629468765</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +123,7 @@
     <MESSAGE value="[Feat] Random Forest&#10;&#10;### Motivation&#10;- Random forest implementation&#10;&#10;### Key Changes&#10;- daconPracticeDay2_03_random_forest.ipynb has been added.&#10;&#10;### To Reviewers&#10;- criterion = 'mse' is deprecated from sklearn.ensemble v1.0." />
     <MESSAGE value="[Add] Add untracked files&#10;&#10;### Motivation&#10;- Files were not tracked&#10;&#10;### Key Changes&#10;- Track the untracked files&#10;- Commit the files to repository&#10;&#10;### To Reviewers&#10;- Nothing special" />
     <MESSAGE value="[Chore] Erase duplicated codes&#10;&#10;### Motivation&#10;- Some codes were duplicated&#10;&#10;### Key Changes&#10;- Erase the duplicated codes&#10;&#10;### To Reviewers&#10;- Nothing special" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Chore] Erase duplicated codes&#10;&#10;### Motivation&#10;- Some codes were duplicated&#10;&#10;### Key Changes&#10;- Erase the duplicated codes&#10;&#10;### To Reviewers&#10;- Nothing special" />
+    <MESSAGE value="[Feat] Importance of parameters&#10;&#10;### Motivation&#10;- Need to check the importance of the parameters&#10;&#10;### Key Changes&#10;- daconPracticeDay2_04_random_forest_importances_of_parameters.ipynb has been added.&#10;&#10;### To Reviewers&#10;- You NEED to check if both the train data and the test data has no missing value." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Feat] Importance of parameters&#10;&#10;### Motivation&#10;- Need to check the importance of the parameters&#10;&#10;### Key Changes&#10;- daconPracticeDay2_04_random_forest_importances_of_parameters.ipynb has been added.&#10;&#10;### To Reviewers&#10;- You NEED to check if both the train data and the test data has no missing value." />
   </component>
 </project>
