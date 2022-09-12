@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff61661f-7679-45f9-a2cf-c1f3bdcfe98c" name="Changes" comment="[Feat] One-hot encoding&#10;&#10;### Motivation&#10;- One-hot encoding&#10;&#10;### Key Changes&#10;- Codes for one-hot encoding have been added to daconPracticeDay3_2_dataPreprocessing.ipynb&#10;&#10;### To Reviewers&#10;- get_feature_name() method will be deprecated in the future. Use get_feature_name_out() instead.">
+    <list default="true" id="ff61661f-7679-45f9-a2cf-c1f3bdcfe98c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_cross_validation_and_LGBM/daconPracticeDay3_2_dataPreprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_cross_validation_and_LGBM/daconPracticeDay3_2_dataPreprocessing.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,8 @@
       <workItem from="1662700607288" duration="2363000" />
       <workItem from="1662738242087" duration="301000" />
       <workItem from="1662746236694" duration="1116000" />
-      <workItem from="1662752928342" duration="323000" />
+      <workItem from="1662752928342" duration="686000" />
+      <workItem from="1662885269824" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="[Chore] Directory structure modification&#10;&#10;### Motivation&#10;- Files are added.&#10;- Need to restructure the directory structure&#10;&#10;### Key Changes&#10;- Directories for each day are added.&#10;- File are refactored with new directory paths.&#10;&#10;### To Reviewers&#10;- Noting special.">
       <created>1662614579976</created>
@@ -180,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662753224099</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="[Feat] One-hot encoding&#10;&#10;### Motivation&#10;- One-hot encoding&#10;&#10;### Key Changes&#10;- Codes for one-hot encoding have been added to daconPracticeDay3_2_dataPreprocessing.ipynb&#10;&#10;### To Reviewers&#10;- get_feature_name() method will be deprecated in the future. Use get_feature_name_out() instead.">
+      <created>1662753425825</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662753425825</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[Chore] Temporary commit&#10;&#10;### Motivation&#10;- Need to store current state&#10;&#10;### Key Changes&#10;- daconPracticeDay3_3_modeling_and_cross_validation.ipynb has been added.&#10;&#10;### To Reviewers&#10;- Nothing special">
+      <created>1662885359906</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662885359906</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +217,7 @@
     <MESSAGE value="[Feat] Outlier handling&#10;&#10;### Motivation&#10;- Outlier handling&#10;&#10;### Key Changes&#10;- daconPracticeDay3_2_dataPreprocessing.ipynb has been added.&#10;- daconPracticeDay3_pythonEDA.ipynb has been changed to daconPracticeDay3_1_pythonEDA.ipynb&#10;&#10;### To Reviewers&#10;- Nothing special" />
     <MESSAGE value="[Feat] Numerical normalization&#10;&#10;### Motivation&#10;- Numerical normalization&#10;&#10;### Key Changes&#10;- Codes for numerical normalization have been added to daconPracticeDay3_2_dataPreprocessing.ipynb&#10;&#10;### To Reviewers&#10;- distplot() method will be deprecated in the future. Use displot() or histplot() instead.&#10;- To draw the same output of distplot(), add option kde=True, stat=&quot;density&quot;, linewidth=1(or 0)." />
     <MESSAGE value="[Feat] One-hot encoding&#10;&#10;### Motivation&#10;- One-hot encoding&#10;&#10;### Key Changes&#10;- Codes for one-hot encoding have been added to daconPracticeDay3_2_dataPreprocessing.ipynb&#10;&#10;### To Reviewers&#10;- get_feature_name() method will be deprecated in the future. Use get_feature_name_out() instead." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Feat] One-hot encoding&#10;&#10;### Motivation&#10;- One-hot encoding&#10;&#10;### Key Changes&#10;- Codes for one-hot encoding have been added to daconPracticeDay3_2_dataPreprocessing.ipynb&#10;&#10;### To Reviewers&#10;- get_feature_name() method will be deprecated in the future. Use get_feature_name_out() instead." />
+    <MESSAGE value="[Chore] Temporary commit&#10;&#10;### Motivation&#10;- Need to store current state&#10;&#10;### Key Changes&#10;- daconPracticeDay3_3_modeling_and_cross_validation.ipynb has been added.&#10;&#10;### To Reviewers&#10;- Nothing special" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Chore] Temporary commit&#10;&#10;### Motivation&#10;- Need to store current state&#10;&#10;### Key Changes&#10;- daconPracticeDay3_3_modeling_and_cross_validation.ipynb has been added.&#10;&#10;### To Reviewers&#10;- Nothing special" />
   </component>
 </project>
